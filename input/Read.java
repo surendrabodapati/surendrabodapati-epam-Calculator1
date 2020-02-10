@@ -8,9 +8,9 @@ public class Read {
 	public Read()
 	{
 		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter first number");
+		System.out.println("Enter first integer");
 		a=sc.nextInt();
-		System.out.println("Enter second number");
+		System.out.println("Enter second integer");
 		b=sc.nextInt();
 		System.out.println("Please Enter operator");
 		ch=sc.next().charAt(0);
