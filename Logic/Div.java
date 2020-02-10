@@ -3,7 +3,7 @@ public class Div {
 
 	public Div(int a, int b)
 	{try {
-		System.out.println("Division of "+a+" and "+b+" is : "+(a/b));
+		System.out.println("Division of "+a+" and "+b+" is : "+(float)(a/b));
 	}
 	catch(Exception e)
 	{
