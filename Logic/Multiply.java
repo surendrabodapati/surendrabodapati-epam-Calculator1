@@ -1,7 +1,7 @@
 package Logic;
 
 public class Multiply {
-	public Multiply(int a, int b)
+	public Multiply(double a, double b)
 	{
 		System.out.println("Product of "+a+" and "+b+" is : "+(a*b));
 	}
