@@ -1,9 +1,9 @@
 package Logic;
 
 public class Subtract {
-	public Subtract(int a, int b)
+	public Subtract(double a,double b)
 	{
-		System.out.println("Subtract of "+a+" and "+b+" is : "+(a+b));
+		System.out.println("Subtract of "+a+" and "+b+" is : "+(a-b));
 	}
 
 }
