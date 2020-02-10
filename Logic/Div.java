@@ -1,9 +1,9 @@
 package Logic;
 public class Div {
 
-	public Div(int a, int b)
+	public Div(double a, double b)
 	{try {
-		System.out.println("Division of "+a+" and "+b+" is : "+(float)(a/b));
+		System.out.println("Division of "+a+" and "+b+" is : "+(a/b));
 	}
 	catch(Exception e)
 	{
